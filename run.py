@@ -1,5 +1,5 @@
 from src.play_game import play_game
+from src.mounty_hall import mounty_hall
 from src.myclass import Strategy
 
-result = play_game(Strategy.STAY)
-print("{result}" .format(result=result))
+mounty_hall()
